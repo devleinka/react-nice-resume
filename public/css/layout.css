@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #f9f9f9; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -841,7 +841,7 @@ call-to-action .button {
 
 #contact-social {
    font-size: 1.5em;
-   color: white;
+   color: #525252;
 }
 
 
