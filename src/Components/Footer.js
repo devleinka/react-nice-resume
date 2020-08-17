@@ -14,6 +14,7 @@ class Footer extends Component {
 
      <div className="row">
         <div className="twelve columns">
+          <div id="contact-social">Get in touch:</div>
            <ul className="social-links">
               {networks}
            </ul>

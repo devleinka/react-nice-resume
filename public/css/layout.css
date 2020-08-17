@@ -174,7 +174,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #fe6928; }
+ul#nav li.current a { color: #00cccc; }
 
 
 /* ------------------------------------------------------------------ */
@@ -182,7 +182,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #000524;
+   background: #00cccc;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -193,12 +193,12 @@ ul#nav li.current a { color: #fe6928; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #313131;
    margin-bottom: 12px;
 }
 #about p {
    line-height: 30px;
-   color: #ccc;
+   color: #313131;
 }
 #about .profile-pic {
    position: relative;
@@ -237,7 +237,7 @@ ul#nav li.current a { color: #fe6928; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #0762f9; }
+#resume a, #resume a:visited  { color: #00cccc; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -246,7 +246,7 @@ ul#nav li.current a { color: #fe6928; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #0762f9;
+   border-bottom: 3px solid #00cccc;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -426,6 +426,15 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 /* Portfolio Content */
+
+.portfolio-pic-and-button-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   flex-direction: column;
+}
+
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
@@ -829,6 +838,11 @@ call-to-action .button {
 }
 #contact .header-col { padding-top: 6px; }
 
+#contact-social {
+   font-size: 1.5em;
+   color: white;
+}
+
 
 /* contact form */
 #contact form { margin-bottom: 30px; }
@@ -876,7 +890,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #0762f9;
+	color: #00cccc;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -1021,4 +1035,8 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .github-btn{
    background-color: #34495e !important;
+}
+.udemy-btn{
+   background-color: white !important;
+   color: #00cccc !important;
 }
