@@ -430,10 +430,42 @@ ul#nav li.current a { color: #00cccc; }
 
 .portfolio-pic-and-button-wrapper {
    display: flex;
-   justify-content: center;
-   align-items: center;
+   justify-content: space-evenly;
    flex-wrap: wrap;
-   flex-direction: column;
+}
+
+.pic {
+   width: 50%;
+   display: block;
+}
+
+.desc {
+   width: 50%;
+   display: block;
+   padding-left: 36px;
+   color: #ffffff;
+}
+
+@media only screen and (max-width: 767px) {
+   .desc, .pic {
+      width: auto !important;
+   }
+   .project-buttons {
+      display: block;
+   }
+   .portfo-btn {
+      width: 100%;
+      text-align: center;
+   }
+}
+.desc h5 {
+   color: #ffffff !important;
+}
+
+.portfo-btn {
+   margin-top: 18px;
+   margin-left: 36px;
+   min-width: 280px;
 }
 
 #portfolio-wrapper .columns { margin-bottom: 36px; }
@@ -1040,4 +1072,8 @@ footer .social-links li:first-child { margin-left: 0; }
 .udemy-btn{
    background-color: white !important;
    color: #00cccc !important;
+}
+.url-btn {
+   background-color:  white !important;
+   color: #34495e !important;
 }

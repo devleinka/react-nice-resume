@@ -5,7 +5,7 @@
     "image":"profilepic.jpg",
     "bio":"Like many developers, I'm completely self-taught. My passion is to learn, and web development is a bottomless source of new concepts to explore! I like learning foreign languages, drawing, painting, sewing and taekwondo.",
     "contactmessage":"If you are looking for a React developer, you've found her!",
-    "linkedin": "https://www.linkedin.com/skovranova",
+    "linkedin": "https://www.linkedin.com/in/skovranova/",
     "phone": "777663283",
     "github":"https://github.com/devleinka",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
@@ -109,7 +109,8 @@
         "category":"A demo e-commerce project built using React, react-redux, redux-saga and Firebase.",
         "image":"e-commerce-demo.jpg",
         "url":"https://ecommerce-demo-live.herokuapp.com",
-        "github":"https://github.com/devleinka/ecommerce-demo"
+        "github":"https://github.com/devleinka/ecommerce-demo", 
+        "aboutProject":"This project is a demonstration of an e-commerce website built with React (with Hooks), Redux-Saga and Styled Components on the frontend and Firebase and Node + Express on the backend. Payments are implemented using Stripe. Feel free to check out the project's GitHub repo, to see how it works please visit it live on Heroku."
       }
     ]
   }

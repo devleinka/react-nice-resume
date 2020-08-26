@@ -737,6 +737,10 @@ properly.
    [class*="column"] + [class*="column"]:last-child { float: none; }
    [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: none; }
 
+   .desc, .pic {
+      width: 100%;
+   }
+
    /* Offsets */
    .row .offset-1    { margin-left: 0%; }
    .row .offset-2    { margin-left: 0%; }
